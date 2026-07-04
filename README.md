@@ -1,3 +1,5 @@
+I am not a coder nor do i know coding, this was made with ChatGPT because i had an idea and a problem and this is what came from that idea use it or not the choice is yours
+
 # OBS Flatpak Plugin Manager v1.1.2
 
 A portable, Flatpak-first bootstrap bundle for OBS Studio and a small curated list of plugins.
@@ -21,7 +23,7 @@ A portable, Flatpak-first bootstrap bundle for OBS Studio and a small curated li
 ## Run it
 
 ```bash
-unzip obs-flatpak-plugin-manager-multi-rtmp.zip
+unzip obs-flatpak-plugin-manager-main.zip
 cd obs-flatpak-plugin-manager-multi-rtmp
 chmod +x bootstrap.sh run.sh
 ./bootstrap.sh
