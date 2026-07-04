@@ -1,0 +1,16 @@
+{
+  "id": "example-plugin",
+  "name": "Example Plugin",
+  "kind": "local_extension",
+  "flatpak_id": "com.obsproject.Studio.Plugin.ExamplePlugin",
+  "description": "Describe exactly what this plugin does.",
+  "repository": "https://github.com/OWNER/REPOSITORY.git",
+  "tag": "v1.2.3",
+  "expected_commit": "optional-short-or-full-commit",
+  "source_dir": "repository",
+  "module_name": "ExamplePlugin",
+  "required_obs_major": 32,
+  "cmake_options": [
+    "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
+  ]
+}

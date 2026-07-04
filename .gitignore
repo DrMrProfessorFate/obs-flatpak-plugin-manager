@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Local build outputs and caches
+work/
+build/
+cache/
+local-extensions/
+sources/
+
+# Logs and reports
+logs/
+*.log
+*.report
+*.txt~
+
+# OS/editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Generated archives
+*.zip

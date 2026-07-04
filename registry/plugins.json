@@ -1,0 +1,48 @@
+{
+  "plugins": [
+    {
+      "id": "aitum-vertical",
+      "name": "Aitum Vertical Canvas",
+      "kind": "official_extension",
+      "flatpak_id": "com.obsproject.Studio.Plugin.VerticalCanvas",
+      "description": "Official Flatpak extension for a dedicated vertical canvas workflow.",
+      "source": "Flathub"
+    },
+    {
+      "id": "branch-output",
+      "name": "Branch Output",
+      "kind": "local_extension",
+      "flatpak_id": "com.obsproject.Studio.Plugin.BranchOutput",
+      "description": "Builds a user-scoped Flatpak extension from the pinned Branch Output source release.",
+      "repository": "https://github.com/OPENSPHERE-Inc/branch-output.git",
+      "tag": "1.0.9",
+      "source_dir": "branch-output",
+      "module_name": "branch-output",
+      "cmake_options": [
+        "-DCMAKE_BUILD_TYPE=RelWithDebInfo",
+        "-DENABLE_FRONTEND_API=ON",
+        "-DENABLE_QT=ON"
+      ]
+    },
+    {
+      "id": "multi-rtmp",
+      "name": "Multiple RTMP Outputs",
+      "kind": "local_extension",
+      "flatpak_id": "com.obsproject.Studio.Plugin.MultiRTMP",
+      "description": "Adds concurrent RTMP outputs for multistreaming. The source is built locally as a user-scoped Flatpak extension.",
+      "repository": "https://github.com/sorayuki/obs-multi-rtmp.git",
+      "tag": "0.7.3.2",
+      "expected_commit": "fd41bfd",
+      "source_dir": "obs-multi-rtmp",
+      "module_name": "obs-multi-rtmp",
+      "required_obs_major": 32,
+      "cmake_options": [
+        "-DCMAKE_BUILD_TYPE=RelWithDebInfo",
+        "-DENABLE_FRONTEND_API=ON",
+        "-DENABLE_QT=ON",
+        "-DCMAKE_CXX_STANDARD=20",
+        "-DCMAKE_CXX_STANDARD_REQUIRED=ON"
+      ]
+    }
+  ]
+}
