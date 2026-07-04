@@ -24,7 +24,7 @@ A portable, Flatpak-first bootstrap bundle for OBS Studio and a small curated li
 
 ```bash
 unzip obs-flatpak-plugin-manager-main.zip
-cd obs-flatpak-plugin-manager-multi-rtmp
+cd obs-flatpak-plugin-manager-main
 chmod +x bootstrap.sh run.sh
 ./bootstrap.sh
 ```
