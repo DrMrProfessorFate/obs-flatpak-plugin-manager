@@ -1,4 +1,4 @@
-I am not a coder nor do i know coding, this was made with ChatGPT because i had an idea and a problem and this is what came from that idea use it or not the choice is yours
+I am not a coder nor do i know coding. But i had a problem, i had an idea and i used ChatGPT to help with the code so i could solve that problem. Wanted to put this disclaimer inorder to be transparent. 
 
 # OBS Flatpak Plugin Manager v1.1.2
 
